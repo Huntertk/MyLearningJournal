@@ -120,8 +120,8 @@ header{
 }
 .header-title-nav-link:hover,
 .header-title-nav-link:focus{
-    color: #707070;
-    border-color: #707070;
+    color: #d8cece;
+    border-color: #d8cece;
 }
 .header-title:hover{
     transform: scale(1.05,1.3);
