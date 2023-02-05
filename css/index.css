@@ -307,6 +307,7 @@ header{
 }
 .question{
     width: 95%;
+    padding: 0 0.5em;
     margin: 0 auto;
     text-align: start;
 }
