@@ -117,7 +117,7 @@ header{
     left: 0;
     width: 0;
     background-color: #fff;
-    height: 4px;
+    height: 3px;
     transition: all 0.3s ease;
 }
 .list-li a:hover:after {
