@@ -108,10 +108,20 @@ header{
 .list-li:hover,
 .list-li:focus{ 
     transform: scale(1.3);
+} 
+/*li a hover*/
+.list-li a:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    background-color: #fff;
+    height: 4px;
+    transition: all 0.3s ease;
 }
-.list-link:hover,
-.list-link:focus{
-    color: #fff200;
+.list-li a:hover:after {
+    width: 100%;
 }
 .header-title-nav-link{
     text-decoration: none;
